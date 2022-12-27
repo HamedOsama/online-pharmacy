@@ -135,7 +135,7 @@ function App() {
   }
   const submitHandler = async () => {
     try {
-      const req = await axios.post('http://django-server-production-b5f9.up.railway.app/drugs/',
+      const req = await axios.post('https://django-server-production-b5f9.up.railway.app/drugs/',
         details,
         {
           headers: {
